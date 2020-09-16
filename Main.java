@@ -1,6 +1,7 @@
+import java.util.Scanner;
 /**
  *
- * @author 
+ * @author Erkam
  */
 public class Main {
 
@@ -9,7 +10,32 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
+    Scanner input = new Scanner(System.in);
+
+    final int num1;
+
+    final int num2;
+
+  System.out.println("Please enter a integer");
+  int integer= input.nextInt ();
+
+  double quotient =1 / 2;
+  System.out.println("that is a even number");
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
     
   }
 }
